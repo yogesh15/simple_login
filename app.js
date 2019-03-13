@@ -34,7 +34,7 @@ app.post("/login",function(req,res){
     var username = req.body.username;
     var password = req.body.password;
     var checkLogin = {username: username, password: password} ;
-    res.redirect("/register");
+    res.redirect("/login");
 
 });
 
